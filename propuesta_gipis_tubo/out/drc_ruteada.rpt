@@ -1,0 +1,88 @@
+** Drc report for nodo_a_ruteada.kicad_pcb **
+** Created on 2026-10-09T18:07:53 **
+** Report includes: Errors **
+
+** Found 17 DRC violations **
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(-0.0500 mm, -0.0500 mm): Zone [GND] on B.Cu, priority 0
+    @(37.0000 mm, 44.5000 mm): PTH pad 1 [GND] of Q2
+[track_width]: Track width (board setup constraints min width 0,8000 mm; actual 0,6000 mm)
+    Rule: netclass 'Default'; error
+    @(137.5983 mm, 24.5400 mm): Track [GPS_RX] on B.Cu, length 0.3746 mm
+[track_width]: Track width (board setup constraints min width 0,8000 mm; actual 0,6000 mm)
+    Rule: netclass 'Default'; error
+    @(140.0000 mm, 24.5400 mm): Track [GPS_RX] on B.Cu, length 2.4017 mm
+[track_width]: Track width (board setup constraints min width 0,8000 mm; actual 0,6000 mm)
+    Rule: netclass 'Default'; error
+    @(137.3334 mm, 24.2751 mm): Track [GPS_RX] on B.Cu, length 0.4687 mm
+[track_width]: Track width (board setup constraints min width 0,8000 mm; actual 0,6000 mm)
+    Rule: netclass 'Default'; error
+    @(151.2500 mm, 10.5800 mm): Track [SCL] on B.Cu, length 2.4017 mm
+[track_width]: Track width (board setup constraints min width 0,8000 mm; actual 0,6000 mm)
+    Rule: netclass 'Default'; error
+    @(148.8483 mm, 8.9256 mm): Track [SCL] on B.Cu, length 1.6544 mm
+[track_width]: Track width (board setup constraints min width 0,8000 mm; actual 0,6000 mm)
+    Rule: netclass 'Default'; error
+    @(148.0202 mm, 8.0975 mm): Track [SCL] on B.Cu, length 1.1711 mm
+[track_width]: Track width (board setup constraints min width 0,8000 mm; actual 0,6000 mm)
+    Rule: netclass 'Default'; error
+    @(137.2775 mm, 46.1151 mm): Track [SD_CS] on B.Cu, length 18.2024 mm
+[track_width]: Track width (board setup constraints min width 0,8000 mm; actual 0,6000 mm)
+    Rule: netclass 'Default'; error
+    @(119.0751 mm, 46.1151 mm): Track [SD_CS] on B.Cu, length 0.0921 mm
+[track_width]: Track width (board setup constraints min width 0,8000 mm; actual 0,6000 mm)
+    Rule: netclass 'Default'; error
+    @(151.2500 mm, 39.5700 mm): Track [SD_SCK] on B.Cu, length 2.4017 mm
+[track_width]: Track width (board setup constraints min width 0,8000 mm; actual 0,6000 mm)
+    Rule: netclass 'Default'; error
+    @(147.7271 mm, 40.2098 mm): Track [SD_SCK] on B.Cu, length 0.4814 mm
+[track_width]: Track width (board setup constraints min width 0,8000 mm; actual 0,6000 mm)
+    Rule: netclass 'Default'; error
+    @(148.2085 mm, 40.2098 mm): Track [SD_SCK] on B.Cu, length 0.9048 mm
+[track_width]: Track width (board setup constraints min width 0,8000 mm; actual 0,4800 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(65.4002 mm, 38.0313 mm): Track [V+] on B.Cu, length 0.1802 mm
+[track_width]: Track width (board setup constraints min width 0,8000 mm; actual 0,6000 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(65.4002 mm, 37.8511 mm): Track [V+] on B.Cu, length 0.6306 mm
+[track_width]: Track width (board setup constraints min width 0,8000 mm; actual 0,4800 mm)
+    Rule: netclass 'Default' (diff pair); error
+    @(64.9700 mm, 38.4615 mm): Track [V+] on B.Cu, length 0.6084 mm
+[clearance]: Clearance violation (netclass 'Power' clearance 0,6000 mm; actual 0,4051 mm)
+    Rule: netclass 'Power'; error
+    @(154.4494 mm, 18.8220 mm): Track [VE] on F.Cu, length 3.0249 mm
+    @(151.2500 mm, 18.2000 mm): PTH pad 1 [GND] of U3
+[clearance]: Clearance violation (netclass 'Default' clearance 0,6000 mm; actual 0,4046 mm)
+    Rule: netclass 'Default'; error
+    @(64.0000 mm, 34.0000 mm): PTH pad 1 [C1+] of U1
+    @(62.9638 mm, 31.4983 mm): Track [V-] on F.Cu, length 6.5195 mm
+
+** Found 4 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(-0.0500 mm, -0.0500 mm): Zone [GND] on B.Cu, priority 0
+    @(37.0000 mm, 44.5000 mm): PTH pad 1 [GND] of Q2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(57.0000 mm, 26.0000 mm): PTH pad 1 [+5V] of JP3
+    @(130.0000 mm, 4.0000 mm): PTH pad 1 [+5V] of D2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.2500 mm, 31.9500 mm): PTH pad 2 [+5V] of U7
+    @(130.0000 mm, 4.0000 mm): PTH pad 1 [+5V] of D2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(4.5000 mm, 27.5000 mm): Track [RX_OCR] on B.Cu, length 4.8367 mm
+    @(69.0800 mm, 26.3800 mm): PTH pad 14 [RX_OCR] of U1
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

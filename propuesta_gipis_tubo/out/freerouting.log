@@ -1,0 +1,59 @@
+2026-10-09 18:07:10.703 INFO   Freerouting v2.4.1 (build-date: 2026-09-03)
+2026-10-09 18:07:12.077 INFO   [CFDB7C\F1ECEE] Loading board file 'nodo_a_1cara.dsn'...
+2026-10-09 18:07:12.108 INFO   [CFDB7C\F1ECEE] Job 'CFDB7C\F1ECEE' started at 2026-10-09T21:07:12.107902862Z.
+2026-10-09 18:07:12.136 INFO   New version available: v2.5.0
+2026-10-09 18:07:12.147 INFO   [CFDB7C\F1ECEE] Fanout stage started on board '4ee803f27747618a90acd34b2bdfc870' with 123 of 156 SMD pins needing fanout (0 already connected, 33 netless).
+2026-10-09 18:07:13.308 INFO   [CFDB7C\F1ECEE] Fanout pass #1 on board '9734eb695ce79d0cd81c1bd84dfaca4a' completed in 1.14 seconds with 112 SMD pins fanouted, 4 not routed, 0 insert errors, +73 extra vias (0 SMD pins still to check in pass, ripup costs=100).
+2026-10-09 18:07:13.507 INFO   [CFDB7C\F1ECEE] Fanout pass #2 on board '88a5c8f1cf20be31c80ed1cf3a345f20' completed in 0.19 seconds with 19 SMD pins fanouted, 1 not routed, 0 insert errors, +12 extra vias (0 SMD pins still to check in pass, ripup costs=200).
+2026-10-09 18:07:13.631 INFO   [CFDB7C\F1ECEE] Fanout pass #3 on board '4229c1bddd2c3d2e20d357f3965e95ce' completed in 0.12 seconds with 5 SMD pins fanouted, 1 not routed, 0 insert errors, +3 extra vias (0 SMD pins still to check in pass, ripup costs=300).
+2026-10-09 18:07:13.696 INFO   [CFDB7C\F1ECEE] Fanout pass #4 on board '4229c1bddd2c3d2e20d357f3965e95ce' completed in 0.06 seconds with 0 SMD pins fanouted, 1 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=400).
+2026-10-09 18:07:13.715 INFO   [CFDB7C\F1ECEE] Fanout stage completed: started with 123 total SMD pins, completed in 1.56 seconds, escaped pins: 122/123 (99.2%), using 1.53 total CPU seconds, 5.38 GB total allocated, and 926.9 MB peak heap usage.
+2026-10-09 18:07:13.727 INFO   [CFDB7C\F1ECEE] Auto-routing stage started on board '4229c1bddd2c3d2e20d357f3965e95ce' for 60 unrouted items.
+2026-10-09 18:07:17.498 INFO   [CFDB7C\F1ECEE] Auto-routing pass #1 on board '4229c1bddd2c3d2e20d357f3965e95ce' was completed in 3.71 seconds with score 781.59 (19 unrouted and 0 violations), using 4.90 CPU seconds and the job allocated 24.71 GB of memory so far.
+2026-10-09 18:07:19.692 INFO   [CFDB7C\F1ECEE] Auto-routing pass #2 on board '32d91f89db2bd371ff01ce632801727d' was completed in 2.13 seconds with score 827.57 (15 unrouted and 0 violations), using 6.88 CPU seconds and the job allocated 37.56 GB of memory so far.
+2026-10-09 18:07:21.301 INFO   [CFDB7C\F1ECEE] Auto-routing pass #3 on board 'e4b016405cda2ab9b59cd115785d0f47' was completed in 1.54 seconds with score 908.03 (8 unrouted and 0 violations), using 8.84 CPU seconds and the job allocated 49.99 GB of memory so far.
+2026-10-09 18:07:22.357 INFO   [CFDB7C\F1ECEE] Auto-routing pass #4 on board 'f93daee509bae9bc034a49ef0f360852' was completed in 0.98 seconds with score 919.52 (7 unrouted and 0 violations), using 9.83 CPU seconds and the job allocated 56.50 GB of memory so far.
+2026-10-09 18:07:23.274 INFO   [CFDB7C\F1ECEE] Auto-routing pass #5 on board '3d42cdc4aa243605efa0df67448c6b09' was completed in 0.84 seconds with score 919.52 (7 unrouted and 0 violations), using 10.81 CPU seconds and the job allocated 63.30 GB of memory so far.
+2026-10-09 18:07:24.332 INFO   [CFDB7C\F1ECEE] Auto-routing pass #6 on board '83c84af5c1329d89ffcadcbbd019de99' was completed in 0.98 seconds with score 919.52 (7 unrouted and 0 violations), using 11.80 CPU seconds and the job allocated 69.60 GB of memory so far.
+2026-10-09 18:07:25.295 INFO   [CFDB7C\F1ECEE] Auto-routing pass #7 on board 'd124baa12a305052982ece2fbeacb270' was completed in 0.89 seconds with score 919.52 (7 unrouted and 0 violations), using 12.79 CPU seconds and the job allocated 76.35 GB of memory so far.
+2026-10-09 18:07:26.233 INFO   [CFDB7C\F1ECEE] Auto-routing pass #8 on board '877e00e9f70cd5e6bfe5c72d7c6a97d8' was completed in 0.86 seconds with score 919.52 (7 unrouted and 0 violations), using 13.77 CPU seconds and the job allocated 83.40 GB of memory so far.
+2026-10-09 18:07:27.109 INFO   [CFDB7C\F1ECEE] Auto-routing pass #9 on board '877e00e9f70cd5e6bfe5c72d7c6a97d8' was completed in 0.83 seconds with score 919.52 (7 unrouted and 0 violations), using 13.77 CPU seconds and the job allocated 83.40 GB of memory so far.
+2026-10-09 18:07:27.945 INFO   [CFDB7C\F1ECEE] Auto-routing pass #10 on board 'b878d3679aaa15268a543c9db54de0be' was completed in 0.76 seconds with score 919.52 (7 unrouted and 0 violations), using 14.76 CPU seconds and the job allocated 90.13 GB of memory so far.
+2026-10-09 18:07:28.882 INFO   [CFDB7C\F1ECEE] Auto-routing pass #11 on board '54b11d69d795a3d57c0bd56f6a597a10' was completed in 0.80 seconds with score 919.53 (7 unrouted and 0 violations), using 15.74 CPU seconds and the job allocated 97.53 GB of memory so far.
+2026-10-09 18:07:29.947 INFO   [CFDB7C\F1ECEE] Auto-routing pass #12 on board 'ab890838b245a6f1756ea8ca6c7b380c' was completed in 1.00 seconds with score 931.02 (6 unrouted and 0 violations), using 16.72 CPU seconds and the job allocated 104.60 GB of memory so far.
+2026-10-09 18:07:30.827 INFO   [CFDB7C\F1ECEE] Auto-routing pass #13 on board '220f2f1d832f8c0ba1eac60487f2097c' was completed in 0.81 seconds with score 919.53 (7 unrouted and 0 violations), using 17.71 CPU seconds and the job allocated 112.17 GB of memory so far.
+2026-10-09 18:07:31.800 INFO   [CFDB7C\F1ECEE] Auto-routing pass #14 on board '34ab1d5892b91efa4a0ee938fd349438' was completed in 0.90 seconds with score 931.02 (6 unrouted and 0 violations), using 18.69 CPU seconds and the job allocated 119.09 GB of memory so far.
+2026-10-09 18:07:33.002 INFO   [CFDB7C\F1ECEE] Auto-routing pass #15 on board 'a66d70a38555b1847c22028ae781754d' was completed in 1.13 seconds with score 954.01 (4 unrouted and 0 violations), using 19.68 CPU seconds and the job allocated 125.93 GB of memory so far.
+2026-10-09 18:07:34.005 INFO   [CFDB7C\F1ECEE] Auto-routing pass #16 on board 'a324d265ab87e1ba76761ff0ca73a186' was completed in 0.92 seconds with score 954.01 (4 unrouted and 0 violations), using 20.66 CPU seconds and the job allocated 132.39 GB of memory so far.
+2026-10-09 18:07:34.809 INFO   [CFDB7C\F1ECEE] Auto-routing pass #17 on board 'a324d265ab87e1ba76761ff0ca73a186' was completed in 0.76 seconds with score 942.51 (5 unrouted and 0 violations), using 21.64 CPU seconds and the job allocated 139.31 GB of memory so far.
+2026-10-09 18:07:35.497 INFO   [CFDB7C\F1ECEE] Auto-routing pass #18 on board '8d91bcbeec200d0955ab67acb3560acf' was completed in 0.61 seconds with score 942.51 (5 unrouted and 0 violations), using 22.63 CPU seconds and the job allocated 145.92 GB of memory so far.
+2026-10-09 18:07:36.409 INFO   [CFDB7C\F1ECEE] Auto-routing pass #19 on board '38cc82d403cb7dbd67397f7bf4c3f7a3' was completed in 0.82 seconds with score 942.51 (5 unrouted and 0 violations), using 23.61 CPU seconds and the job allocated 152.34 GB of memory so far.
+2026-10-09 18:07:37.206 INFO   [CFDB7C\F1ECEE] Auto-routing pass #20 on board 'a324d265ab87e1ba76761ff0ca73a186' was completed in 0.00 seconds with score 954.01 (4 unrouted and 0 violations), using 24.60 CPU seconds and the job allocated 159.07 GB of memory so far.
+2026-10-09 18:07:38.028 INFO   [CFDB7C\F1ECEE] Auto-routing pass #21 on board 'a324d265ab87e1ba76761ff0ca73a186' was completed in 0.78 seconds with score 942.51 (5 unrouted and 0 violations), using 24.60 CPU seconds and the job allocated 159.07 GB of memory so far.
+2026-10-09 18:07:38.723 INFO   [CFDB7C\F1ECEE] Auto-routing pass #22 on board '7d7461cf5f1f0be7ed7f312213c747cd' was completed in 0.62 seconds with score 942.51 (5 unrouted and 0 violations), using 25.58 CPU seconds and the job allocated 165.89 GB of memory so far.
+2026-10-09 18:07:39.623 INFO   [CFDB7C\F1ECEE] Auto-routing pass #23 on board 'e06551ae2b3fb2d5525c612eaf498679' was completed in 0.82 seconds with score 942.51 (5 unrouted and 0 violations), using 26.56 CPU seconds and the job allocated 172.57 GB of memory so far.
+2026-10-09 18:07:40.409 INFO   [CFDB7C\F1ECEE] Auto-routing pass #24 on board 'a324d265ab87e1ba76761ff0ca73a186' was completed in 0.00 seconds with score 954.01 (4 unrouted and 0 violations), using 27.55 CPU seconds and the job allocated 179.30 GB of memory so far.
+2026-10-09 18:07:41.245 INFO   [CFDB7C\F1ECEE] Auto-routing pass #25 on board 'a324d265ab87e1ba76761ff0ca73a186' was completed in 0.79 seconds with score 942.51 (5 unrouted and 0 violations), using 28.53 CPU seconds and the job allocated 185.68 GB of memory so far.
+2026-10-09 18:07:41.261 INFO   [CFDB7C\F1ECEE] The router's best score (954.01) has not improved by more than 0.5 points since pass #15. Stopping the auto-router after 25 passes (4 items still unconnected).
+The following connections could not be routed -- please review your design (e.g. check pad clearances, trace width rules, and available routing space):
+  Net 'GND' (1 unrouted connection):
+    - Q2-1  ->  Q1-1
+  Net '+5V' (2 unrouted connections):
+    - D2-1  ->  U7-2
+    - D2-1  ->  JP3-1
+  Net 'VCC_RELE' (1 unrouted connection):
+    - D4-2  ->  D5-2
+  Net 'V-' (1 unrouted connection):
+    - U1-6  ->  C4-1
+2026-10-09 18:07:41.398 INFO   [CFDB7C\F1ECEE] Auto-routing stage completed: started with 87 unrouted nets, completed in 29.24 seconds, final score: 954.01 (4 unrouted and 0 violations), using 28.53 total CPU seconds, 185.68 GB total allocated, and 918.8 MB peak heap usage.
+2026-10-09 18:07:41.436 INFO   [CFDB7C\F1ECEE] Optimization stage started on board '0ecadbd933ade44e88db29e871de4f4d' with score 919.52 (7 unrouted and 0 violations).
+2026-10-09 18:07:46.037 INFO   [CFDB7C\F1ECEE] Stopping optimization pass #1 early after 50 consecutive items could not be improved.
+2026-10-09 18:07:46.073 INFO   [CFDB7C\F1ECEE] Optimizer pass #1 on board 'b66b8ab9ab22fa8df7228905866dd5dd' was completed in 4.52 seconds with the score of 919.53 (7 unrouted and 0 violations).
+2026-10-09 18:07:46.105 INFO   [CFDB7C\F1ECEE] Stopping optimizer because the improvement in this pass (0.0003%) is below the threshold (1.00%).
+2026-10-09 18:07:46.137 INFO   [CFDB7C\F1ECEE] Optimization stage completed: started with score 919.52 (7 unrouted and 0 violations), completed in 4.67 seconds, final score: 919.53 (7 unrouted and 0 violations), using 4.59 total CPU seconds, 40.78 GB total allocated, and 515.6 MB peak heap usage.
+2026-10-09 18:07:46.143 INFO   [CFDB7C\F1ECEE] Job 'CFDB7C\F1ECEE' finished with state: COMPLETED (elapsed: 34.03 seconds, finished at UTC: 2026-10-09T21:07:46.142688150Z).
+2026-10-09 18:07:46.340 INFO   Saving output file '/home/pablo/Projects/ocr_lora/pcb/nodo_a/out/nodo_a.ses' (SES)...
+2026-10-09 18:07:46.340 INFO   Successfully saved output file '/home/pablo/Projects/ocr_lora/pcb/nodo_a/out/nodo_a.ses' (38065 bytes).
+WARNING: Final field userProfileSettings in class app.freerouting.settings.GlobalSettings has been mutated reflectively by class com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2 in unnamed module @481a15ff (file:/home/pablo/.local/share/freerouting/freerouting-2.4.1.jar)
+WARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning
+WARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled

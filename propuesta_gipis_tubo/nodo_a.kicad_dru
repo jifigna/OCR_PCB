@@ -1,0 +1,6 @@
+(version 1)
+(rule fresado_lpkf
+  (constraint clearance (min 0.6mm))
+  (constraint track_width (min 0.8mm)))
+(rule borde
+  (constraint edge_clearance (min 1.0mm)))
